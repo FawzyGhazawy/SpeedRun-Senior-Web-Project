@@ -1,0 +1,133 @@
+/* .form-check-input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  .form-check-input[type="checkbox"]:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .form-check-input[type="checkbox"]:checked:before {
+   
+    color: #fff;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+   
+    display: block;
+
+  }
+
+  .form-check-label {
+    vertical-align: middle;
+  } */
+
+  html {
+    height: 100%;
+  }
+  
+  .hero {
+    width: 100%;
+    min-height: 100vh; /* Change this */
+    background-color: #0e1d34;
+    background-image: url("../img/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: rgba(255, 255, 255, 0.8);
+    overflow: auto;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+
+  .table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    table-layout: fixed;
+    border: border;
+  }
+  
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    vertical-align: middle;
+    text-align: center;
+    color:#0e1d34;
+  }
+  
+ .table th {
+  padding: 12px;
+  margin: 5px; /* add margin */
+  border: 1px solid transparent; /* add a transparent border */
+  vertical-align: middle;
+  text-align: center;
+  color:#0e1d34;
+  background-color: #f5f5f5;
+  font-weight: bold;
+  text-transform: uppercase;
+  overflow:visible;
+}
+
+  
+  .table tbody tr {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f5f5f5;
+  }
+  
+  .table td select {
+    width: auto;
+    padding: 5px;
+    border: 1px solid #0e1d34;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #0e1d34;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.table td select:focus {
+    outline: none;
+    box-shadow: 0 0 4px #0e1d34;
+    width: auto;  /* Allow the select box to expand horizontally */
+     position: relative; 
+}
+
+.submit-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0d42ff;
+  color: #f5f5f5;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0e1d34;
+  color: #f5f5f5;
+}
+
+#colspanTD{
+  text-align: center;
+  color:#0e1d34;
+  font-weight: bolder;
+
+}
+
+  
